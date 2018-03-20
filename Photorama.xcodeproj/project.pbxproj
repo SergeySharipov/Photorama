@@ -16,8 +16,10 @@
 		A5013F58205744C000CC3243 /* PhotoramaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5013F57205744C000CC3243 /* PhotoramaUITests.swift */; };
 		A5013F7B205767A300CC3243 /* PhotoStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5013F77205767A300CC3243 /* PhotoStore.swift */; };
 		A5013F7C205767A300CC3243 /* FlickrAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5013F78205767A300CC3243 /* FlickrAPI.swift */; };
-		A5013F7D205767A300CC3243 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5013F79205767A300CC3243 /* Photo.swift */; };
 		A5013F7E205767A300CC3243 /* ImageStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5013F7A205767A300CC3243 /* ImageStore.swift */; };
+		A5308C7520608AC700D84035 /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5308C7220608AC700D84035 /* PhotoCollectionViewCell.swift */; };
+		A5308C7620608AC700D84035 /* PhotoDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5308C7320608AC700D84035 /* PhotoDataSource.swift */; };
+		A5308C7920608C1800D84035 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5308C7820608C1800D84035 /* Photo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,8 +55,10 @@
 		A5013F59205744C000CC3243 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A5013F77205767A300CC3243 /* PhotoStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoStore.swift; sourceTree = "<group>"; };
 		A5013F78205767A300CC3243 /* FlickrAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlickrAPI.swift; sourceTree = "<group>"; };
-		A5013F79205767A300CC3243 /* Photo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
 		A5013F7A205767A300CC3243 /* ImageStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageStore.swift; sourceTree = "<group>"; };
+		A5308C7220608AC700D84035 /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
+		A5308C7320608AC700D84035 /* PhotoDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoDataSource.swift; sourceTree = "<group>"; };
+		A5308C7820608C1800D84035 /* Photo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,10 +111,12 @@
 			children = (
 				A5013F78205767A300CC3243 /* FlickrAPI.swift */,
 				A5013F7A205767A300CC3243 /* ImageStore.swift */,
-				A5013F79205767A300CC3243 /* Photo.swift */,
 				A5013F77205767A300CC3243 /* PhotoStore.swift */,
 				A5013F37205744C000CC3243 /* AppDelegate.swift */,
 				A5013F39205744C000CC3243 /* PhotosViewController.swift */,
+				A5308C7820608C1800D84035 /* Photo.swift */,
+				A5308C7220608AC700D84035 /* PhotoCollectionViewCell.swift */,
+				A5308C7320608AC700D84035 /* PhotoDataSource.swift */,
 				A5013F3B205744C000CC3243 /* Main.storyboard */,
 				A5013F3E205744C000CC3243 /* Assets.xcassets */,
 				A5013F40205744C000CC3243 /* LaunchScreen.storyboard */,
@@ -274,8 +280,10 @@
 				A5013F3A205744C000CC3243 /* PhotosViewController.swift in Sources */,
 				A5013F7B205767A300CC3243 /* PhotoStore.swift in Sources */,
 				A5013F38205744C000CC3243 /* AppDelegate.swift in Sources */,
+				A5308C7920608C1800D84035 /* Photo.swift in Sources */,
+				A5308C7520608AC700D84035 /* PhotoCollectionViewCell.swift in Sources */,
+				A5308C7620608AC700D84035 /* PhotoDataSource.swift in Sources */,
 				A5013F7C205767A300CC3243 /* FlickrAPI.swift in Sources */,
-				A5013F7D205767A300CC3243 /* Photo.swift in Sources */,
 				A5013F7E205767A300CC3243 /* ImageStore.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
